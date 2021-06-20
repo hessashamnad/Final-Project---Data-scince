@@ -57,7 +57,7 @@ The results were much better than the initial attempt. With an F1-score of 89.1%
 
 README.md
 
-Sparkify.html/ipynb - notebook used for POC in Udacity Workspace
+Sparkify.ipynb - notebook used for POC in Udacity Workspace
 
 mini_sparkify_event_data.json - starting data file containing the streaming music provider's user logs
 
