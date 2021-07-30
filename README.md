@@ -72,5 +72,5 @@ To achieve the optimal user experience, using more capable hardware and moving t
 The user experience could also be improved significantly by using MXNet, a deep learning library that is better optimized for mobile devices than TensorFlow. The speedup would not be enough for running text extraction on the device, but it would reduce the classification delay significantly.
 
 
-## References
-Udacity course details were used for this project. On top of that, the official pySpark documentation has also been used ( https://spark.apache.org/docs/latest/api/python/index.html )
+## Results
+The results of the blog will be found [here] (https://medium.com/@hessa.shamnad/churn-up-with-sparkify-c2bfba0f0c65)
