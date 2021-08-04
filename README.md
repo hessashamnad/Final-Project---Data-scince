@@ -73,4 +73,4 @@ The user experience could also be improved significantly by using MXNet, a deep 
 
 
 ## Results
-The results of the blog will be found [here] (https://medium.com/@hessa.shamnad/churn-up-with-sparkify-c2bfba0f0c65)
+The results of the blog will be found [here] (https://medium.com/@hessa.shamnad/churn-up-with-sparkify-78369f1c6d6f)
