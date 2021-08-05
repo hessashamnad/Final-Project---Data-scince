@@ -44,7 +44,7 @@ Logistic regression
 
 For each of the above a baseline model was built using the default hyper parameters and then used 3-fold cross validation to fine tune the hyper parameters
 
-The best model was chosen on the basis of F1 Score that gives equal importance to precision and recall. The model that performed the best was the baseline Gradient boosted tree classifier. .
+The best model was chosen on the basis of F1 Score that gives equal importance to precision and recall. The model that performed the best was the tuned Random Forest classifier .
 
 ## Overview of Files
 ### Data Files
