@@ -36,21 +36,15 @@ At the end of this project, a model for churn prediction should be created and e
 
 
 ### Actual Results
-At the end of this project, two main iterations on a churn-prediction model were implemented and evaluated. The first model used a simple pivot of the event containing the most relevant difference between churning and non-churning users.
-Three models are trained with this data, given the following F1 Values:
-Gradient Boosted Trees - 68.9%
-Random Forest - 68.4%
-SVM - 68.4%
+After data exploration and understanding what features relate to user churn, we built multiple models using different methods to predict users who will churn. 3 different classifiers were used :
 
-While the values look promising, an inspection of the confusion matrices revealed that SVM and Random Forest classified all users as non-churning. However, because of the relatively low number of churned users, the F1 score was still reasonably high.
+Random forest classifier
+Gradient boosted tree classifier
+Logistic regression
 
-The best performing model for the first iteration was Gradient Boosted Trees, which managed to predict 17 churners correctly.
+For each of the above a baseline model was built using the default hyper parameters and then used 3-fold cross validation to fine tune the hyper parameters
 
-Two new features are introduced for the second iteration—the number of sessions and days from first to last recorded event.
-
-Gradient Boosted Trees algorithm trained again using these features.
-
-The results were much better than the initial attempt. With an F1-score of 89.1% for validation data, and 294 correctly identified churners, the second iteration of the model is a great first model which could be fine-tuned and improved even more.
+The best model was chosen on the basis of F1 Score that gives equal importance to precision and recall. The model that performed the best was the baseline Gradient boosted tree classifier. .
 
 ## Overview of Files
 ### Data Files
@@ -73,4 +67,4 @@ The user experience could also be improved significantly by using MXNet, a deep 
 
 
 ## Results
-The results of the blog will be found [here] (https://medium.com/@hessa.shamnad/churn-up-with-sparkify-78369f1c6d6f)
+The results of the blog will be found (https://medium.com/@hessa.shamnad/churn-up-with-sparkify-78369f1c6d6f)
